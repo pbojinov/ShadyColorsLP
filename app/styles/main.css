@@ -30,6 +30,7 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+    color: white;
 }
 
 /* Custom page footer */
@@ -47,6 +48,9 @@ body {
 .jumbotron {
     text-align: center;
     xborder-bottom: 1px solid #e5e5e5;
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 0px;
 }
 
 .jumbotron .btn {
@@ -61,6 +65,19 @@ body {
 
 .marketing p + h4 {
     margin-top: 28px;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.nav-pills > li > a {
+    border-radius: 0px !important;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -83,11 +100,16 @@ body {
     .header {
         padding-top: 9px;
         padding-left: 10px;
-        background-color: #EEEEEE;
+        background-color: #8e44ad;
     }
     
     /* Remove the bottom border on the jumbotron for visual effect */
     .jumbotron {
         border-bottom: 0;
     }
+}
+
+/** start my custom css **/
+.top {
+    background-color: #8e44ad;
 }
